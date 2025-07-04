@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AncoraMente | Acalmar a Mente</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container header-container">
+        <a href="index.html" class="logo">AncoraMente</a>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="foco.html">Foco Total</a></li>
+            <li><a href="calma.html" class="active">Acalmar a Mente</a></li>
+          </ul>
+        </nav>
+        <button id="menu-btn" class="menu-btn" aria-label="Abrir menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main class="calma-main-container">
+      <div class="calma-grid-layout container">
+        <section class="breathing-section">
+          <div class="quote-carousel glass-card">
+            <p id="frase-motivacional">
+              Acredite em você mesmo e tudo será possível.
+            </p>
+          </div>
+
+          <div class="breathing-widget">
+            <div class="breathing-app">
+              <div class="breathing-anim-container">
+                <div class="breathing-anim">
+                  <div class="breathing-glow"></div>
+                  <div class="breathing-circle"></div>
+                  <div class="breathing-text">
+                    <p id="breathing-instruction">Escolha uma técnica</p>
+                    <span id="breathing-counter"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="breathing-controls">
+                <button
+                  id="resp-quadrada-btn"
+                  data-tooltip="Ideal para foco e calma instantânea."
+                >
+                  Respiração Quadrada
+                </button>
+                <button
+                  id="resp-478-btn"
+                  data-tooltip="Ótima para relaxar profundamente e auxiliar no sono."
+                >
+                  Respiração Relaxante
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <aside class="music-section">
+          <h3>Música para Relaxar</h3>
+          <p>Playlists selecionadas para ajudar você a encontrar a calma.</p>
+          <div class="music-links">
+            <a
+              href="https://www.youtube.com/watch?v=jfKfPfyJRdk"
+              target="_blank"
+              class="music-link"
+            >
+              <span class="music-icon">🎵</span>
+              <span class="music-text">Lofi Hip Hop</span>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=9sJxWBf6w-s"
+              target="_blank"
+              class="music-link"
+            >
+              <span class="music-icon">🎹</span>
+              <span class="music-text">Piano Instrumental</span>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=EElQRT6UMko"
+              target="_blank"
+              class="music-link"
+            >
+              <span class="music-icon">🎧</span>
+              <span class="music-text">Ruído Branco</span>
+            </a>
+            <a
+              href="https://www.youtube.com/watch?v=7Lm2skxgM6E"
+              target="_blank"
+              class="music-link"
+            >
+              <span class="music-icon">🌊</span>
+              <span class="music-text">Som de Mar</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+    </main>
+
+    <footer class="main-footer">
+      <div class="container">
+        <p>
+          A4 - Desenvolvimento Web Aplicado a um Setor Relevante | AncoraMente |
+          2025
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/calma.js" defer></script>
+  </body>
+</html>
